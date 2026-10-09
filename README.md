@@ -4,7 +4,7 @@
   <p><strong>Talk to your shoppers. Help them discover the right products.</strong></p>
   <p>
     <a href="https://nexoracreation.com/nexora-shopping-assistant-for-woocommerce-plugin/">Product page</a> ·
-    <a href="https://github.com/nexoracteam/nexora-shopping-assistant/raw/refs/heads/main/dist/nexora-shopping-assistant-1.2.3.zip">Download plugin ZIP (v1.2.3)</a> ·
+    <a href="https://github.com/nexoracteam/nexora-shopping-assistant/releases/download/v1.2.3/nexora-shopping-assistant-1.2.3.zip">Download plugin ZIP (v1.2.3)</a> ·
     <a href="readme.txt">WordPress readme & external services disclosure</a>
   </p>
   <p>
@@ -40,7 +40,7 @@ Nexora Shopping Assistant adds an AI-powered chat assistant to WooCommerce store
 
 ## Download and install
 
-1. Download the [installable plugin ZIP for version 1.2.3](https://github.com/nexoracteam/nexora-shopping-assistant/raw/refs/heads/main/dist/nexora-shopping-assistant-1.2.3.zip).
+1. Download the [installable plugin ZIP for version 1.2.3](https://github.com/nexoracteam/nexora-shopping-assistant/releases/download/v1.2.3/nexora-shopping-assistant-1.2.3.zip).
 2. In WordPress, open **Plugins → Add New Plugin → Upload Plugin**, select the ZIP, and activate it.
 3. Open **Nexora Assistant → Providers**, add your own provider API key, choose a model, save, and use **Test connection**.
 4. Check product synchronization under **Knowledge Base**. Optionally build store context with **Analyze**.
