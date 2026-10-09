@@ -1,0 +1,1779 @@
+# Copyright (C) 2026 Nexora Creation
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Nexora Shopping Assistant for WooCommerce 1.2.3\n"
+"Report-Msgid-Bugs-To: https://nexoracreation.com/contact-us/\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-09T09:27:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: nexora-shopping-assistant\n"
+
+#. Plugin Name of the plugin
+#: nexora-shopping-assistant.php
+msgid "Nexora Shopping Assistant for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: nexora-shopping-assistant.php
+msgid "https://nexoracreation.com/nexora-shopping-assistant-for-woocommerce-plugin/"
+msgstr ""
+
+#. Author URI of the plugin
+#: nexora-shopping-assistant.php
+msgid "https://nexoracreation.com"
+msgstr ""
+
+#. Description of the plugin
+#: nexora-shopping-assistant.php
+msgid "Bring-your-own-key AI shopping assistant for WooCommerce that recommends products from your catalogue and adds simple products to the cart."
+msgstr ""
+
+#. Author of the plugin
+#: nexora-shopping-assistant.php
+msgid "Nexora Creation"
+msgstr ""
+
+#: nexora-shopping-assistant.php:33
+msgid "Nexora Shopping Assistant is inactive because another copy of this plugin (for example the earlier ConvoCart AI build) is already loaded. Deactivate the other copy; your settings and data are shared and will be kept."
+msgstr ""
+
+#: nexora-shopping-assistant.php:51
+#: nexora-shopping-assistant.php:62
+msgid "Nexora Shopping Assistant requires PHP 8.1 or newer. Upgrade PHP before activating the plugin."
+msgstr ""
+
+#: nexora-shopping-assistant.php:103
+msgid "Nexora Shopping Assistant could not be activated. Check the PHP error log for the underlying error."
+msgstr ""
+
+#: src/Admin/AdminController.php:37
+#: src/Admin/AdminController.php:96
+#: src/Privacy/PrivacyService.php:111
+#: src/Privacy/PrivacyService.php:181
+msgid "Nexora Shopping Assistant"
+msgstr ""
+
+#: src/Admin/AdminController.php:37
+msgid "Nexora Assistant"
+msgstr ""
+
+#: src/Admin/AdminController.php:38
+msgid "Settings & Styling"
+msgstr ""
+
+#: src/Admin/AdminController.php:39
+msgid "Providers"
+msgstr ""
+
+#: src/Admin/AdminController.php:40
+#: src/Admin/AdminController.php:411
+msgid "Knowledge Base"
+msgstr ""
+
+#: src/Admin/AdminController.php:41
+#: src/Admin/AdminController.php:909
+msgid "Analyze"
+msgstr ""
+
+#: src/Admin/AdminController.php:42
+msgid "Shortcode Guide"
+msgstr ""
+
+#: src/Admin/AdminController.php:43
+#: src/Admin/AdminController.php:499
+msgid "System Status"
+msgstr ""
+
+#: src/Admin/AdminController.php:44
+msgid "Analytics"
+msgstr ""
+
+#: src/Admin/AdminController.php:45
+msgid "Feedback"
+msgstr ""
+
+#: src/Admin/AdminController.php:63
+msgid "Syncing…"
+msgstr ""
+
+#: src/Admin/AdminController.php:64
+msgid "Save the model selection before testing."
+msgstr ""
+
+#: src/Admin/AdminController.php:65
+msgid "Testing…"
+msgstr ""
+
+#: src/Admin/AdminController.php:66
+msgid "Shopping response verified."
+msgstr ""
+
+#: src/Admin/AdminController.php:67
+msgid "Not connected."
+msgstr ""
+
+#: src/Admin/AdminController.php:68
+msgid "Model:"
+msgstr ""
+
+#: src/Admin/AdminController.php:69
+msgid "Request failed."
+msgstr ""
+
+#: src/Admin/AdminController.php:70
+msgid "Choose an available model"
+msgstr ""
+
+#: src/Admin/AdminController.php:71
+msgid "No verified available models"
+msgstr ""
+
+#: src/Admin/AdminController.php:72
+msgid "Models loaded."
+msgstr ""
+
+#: src/Admin/AdminController.php:73
+msgid "Last synchronized:"
+msgstr ""
+
+#: src/Admin/AdminController.php:74
+msgid "Saved model:"
+msgstr ""
+
+#: src/Admin/AdminController.php:75
+msgid "The typed ID is not in the available list."
+msgstr ""
+
+#: src/Admin/AdminController.php:76
+msgid "Choose a model from the synchronized available list."
+msgstr ""
+
+#: src/Admin/AdminController.php:77
+msgid "Loading models…"
+msgstr ""
+
+#: src/Admin/AdminController.php:78
+msgid "Could not load models."
+msgstr ""
+
+#: src/Admin/AdminController.php:79
+msgid "Select or upload an image"
+msgstr ""
+
+#: src/Admin/AdminController.php:80
+msgid "Use this image"
+msgstr ""
+
+#: src/Admin/AdminController.php:91
+msgid "You do not have permission to access these settings."
+msgstr ""
+
+#: src/Admin/AdminController.php:101
+msgid "AI-powered shopping assistant for your store"
+msgstr ""
+
+#: src/Admin/AdminController.php:105
+msgid "The storefront assistant is off. Configure and test a provider in Providers, review your catalogue and fallback choices, then turn on Enable assistant below."
+msgstr ""
+
+#: src/Admin/AdminController.php:109
+msgid "General Settings"
+msgstr ""
+
+#: src/Admin/AdminController.php:115
+msgid "Enable assistant"
+msgstr ""
+
+#: src/Admin/AdminController.php:116
+msgid "Enable assistant frontend"
+msgstr ""
+
+#: src/Admin/AdminController.php:117
+msgid "Assistant name"
+msgstr ""
+
+#: src/Admin/AdminController.php:118
+msgid "Welcome message"
+msgstr ""
+
+#: src/Admin/AdminController.php:119
+msgid "Feature controls"
+msgstr ""
+
+#: src/Admin/AdminController.php:119
+msgid "Floating launcher"
+msgstr ""
+
+#: src/Admin/AdminController.php:119
+msgid "Hash trigger"
+msgstr ""
+
+#: src/Admin/AdminController.php:119
+msgid "Shortcode"
+msgstr ""
+
+#: src/Admin/AdminController.php:119
+msgid "Verified Add to Cart"
+msgstr ""
+
+#: src/Admin/AdminController.php:120
+msgid "Privacy defaults"
+msgstr ""
+
+#: src/Admin/AdminController.php:120
+msgid "Store conversation transcripts"
+msgstr ""
+
+#: src/Admin/AdminController.php:120
+msgid "Link transcripts to logged-in accounts"
+msgstr ""
+
+#: src/Admin/AdminController.php:120
+msgid "Store anonymous aggregate analytics"
+msgstr ""
+
+#: src/Admin/AdminController.php:120
+msgid "Link analytics to logged-in accounts"
+msgstr ""
+
+#: src/Admin/AdminController.php:120
+msgid "Preserve data on uninstall"
+msgstr ""
+
+#: src/Admin/AdminController.php:121
+msgid "Transcript / feedback retention (days)"
+msgstr ""
+
+#: src/Admin/AdminController.php:121
+msgid "Analytics retention (days)"
+msgstr ""
+
+#: src/Admin/AdminController.php:121
+msgid "Retained messages per conversation"
+msgstr ""
+
+#: src/Admin/AdminController.php:121
+msgid "Maximum message length (UTF-8 bytes)"
+msgstr ""
+
+#: src/Admin/AdminController.php:121
+msgid "Maximum product cards (AI returns up to 3)"
+msgstr ""
+
+#: src/Admin/AdminController.php:121
+msgid "Total AI response timeout (seconds)"
+msgstr ""
+
+#: src/Admin/AdminController.php:121
+msgid "Retries per provider"
+msgstr ""
+
+#: src/Admin/AdminController.php:124
+msgid "Failure message"
+msgstr ""
+
+#: src/Admin/AdminController.php:125
+msgid "Customer privacy notice"
+msgstr ""
+
+#: src/Admin/AdminController.php:125
+msgid "Temporary memory expires after 24 hours of inactivity even when retained logging is off. Feedback includes the latest exchange."
+msgstr ""
+
+#: src/Admin/AdminController.php:127
+msgid "Save General Settings"
+msgstr ""
+
+#: src/Admin/AdminController.php:131
+msgid "Styling Options"
+msgstr ""
+
+#: src/Admin/AdminController.php:137
+msgid "Primary color"
+msgstr ""
+
+#: src/Admin/AdminController.php:138
+msgid "Secondary color"
+msgstr ""
+
+#: src/Admin/AdminController.php:139
+msgid "Body font"
+msgstr ""
+
+#: src/Admin/AdminController.php:140
+msgid "Heading font"
+msgstr ""
+
+#: src/Admin/AdminController.php:141
+msgid "Brand logo / icon"
+msgstr ""
+
+#: src/Admin/AdminController.php:141
+msgid "Shown in the assistant header and message avatars. Square images work best."
+msgstr ""
+
+#: src/Admin/AdminController.php:142
+msgid "Assistant avatar"
+msgstr ""
+
+#: src/Admin/AdminController.php:142
+msgid "Shown on the feedback prompt and the thank-you screen."
+msgstr ""
+
+#: src/Admin/AdminController.php:144
+msgid "These colors are applied to the frontend assistant popup. Save and refresh the frontend to see changes."
+msgstr ""
+
+#: src/Admin/AdminController.php:145
+msgid "Save Styling"
+msgstr ""
+
+#: src/Admin/AdminController.php:155
+#: src/Admin/AdminController.php:872
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: src/Admin/AdminController.php:159
+msgid "Shortcode & Integration Guide"
+msgstr ""
+
+#: src/Admin/AdminController.php:162
+msgid "Basic Shortcode"
+msgstr ""
+
+#: src/Admin/AdminController.php:163
+msgid "Place the assistant anywhere on your site with the basic shortcode:"
+msgstr ""
+
+#: src/Admin/AdminController.php:165
+msgid "The earlier [convocart] shortcode still works."
+msgstr ""
+
+#: src/Admin/AdminController.php:168
+msgid "Multiple Trigger Buttons"
+msgstr ""
+
+#: src/Admin/AdminController.php:169
+msgid "Multiple buttons open the same assistant popup. These are not independent inline conversations:"
+msgstr ""
+
+#: src/Admin/AdminController.php:175
+msgid "PHP Template Usage"
+msgstr ""
+
+#: src/Admin/AdminController.php:176
+msgid "Use the shortcode directly in theme template files:"
+msgstr ""
+
+#: src/Admin/AdminController.php:180
+msgid "Hash Trigger"
+msgstr ""
+
+#: src/Admin/AdminController.php:181
+msgid "Link directly to the assistant with a hash URL:"
+msgstr ""
+
+#: src/Admin/AdminController.php:185
+msgid "JavaScript API"
+msgstr ""
+
+#: src/Admin/AdminController.php:186
+msgid "Open/programmatically control from custom JavaScript:"
+msgstr ""
+
+#: src/Admin/AdminController.php:199
+msgid "JavaScript Event"
+msgstr ""
+
+#: src/Admin/AdminController.php:200
+msgid "Or use the custom event:"
+msgstr ""
+
+#: src/Admin/AdminController.php:206
+msgid "Elementor / Page Builder"
+msgstr ""
+
+#: src/Admin/AdminController.php:207
+msgid "Use a Shortcode widget for [nexora_shopping_assistant], or a custom HTML widget for JavaScript."
+msgstr ""
+
+#: src/Admin/AdminController.php:210
+msgid "WooCommerce Integration"
+msgstr ""
+
+#: src/Admin/AdminController.php:211
+msgid "The assistant automatically indexes published WooCommerce products. Customers can search, view, and add products to cart directly from the popup without leaving the page."
+msgstr ""
+
+#: src/Admin/AdminController.php:220
+msgid "You do not have permission to manage providers."
+msgstr ""
+
+#: src/Admin/AdminController.php:231
+msgid "AI Providers"
+msgstr ""
+
+#: src/Admin/AdminController.php:233
+msgid "Model inventories are checked automatically in the background. Only compatible models currently listed by your provider and not past their shutdown date can be selected."
+msgstr ""
+
+#: src/Admin/AdminController.php:235
+msgid "WP-Cron is disabled. Configure your server cron runner for automatic model checks; this page can also refresh models on demand."
+msgstr ""
+
+#: src/Admin/AdminController.php:239
+msgid "Provider Order"
+msgstr ""
+
+#: src/Admin/AdminController.php:240
+msgid "Primary provider"
+msgstr ""
+
+#: src/Admin/AdminController.php:244
+msgid "Fallback providers are tried after the selected primary provider."
+msgstr ""
+
+#: src/Admin/AdminController.php:245
+msgid "Fallback order"
+msgstr ""
+
+#. translators: %d: fallback position number (1 or 2).
+#: src/Admin/AdminController.php:248
+#, php-format
+msgid "Fallback %d"
+msgstr ""
+
+#. translators: %d: fallback position number (1 or 2).
+#: src/Admin/AdminController.php:248
+msgid "None"
+msgstr ""
+
+#: src/Admin/AdminController.php:254
+msgid "Save provider order"
+msgstr ""
+
+#: src/Admin/AdminController.php:257
+msgid "Provider Models"
+msgstr ""
+
+#: src/Admin/AdminController.php:258
+msgid "Available models load automatically after saving a key and refresh before the six-hour inventory expires. Saved selections are never silently replaced. Preview and upcoming shutdown dates are shown explicitly."
+msgstr ""
+
+#. translators: %s: AI provider name, for example OpenAI.
+#: src/Admin/AdminController.php:264
+#, php-format
+msgid "%s model"
+msgstr ""
+
+#: src/Admin/AdminController.php:266
+msgid "Loading available models…"
+msgstr ""
+
+#: src/Admin/AdminController.php:268
+msgid "Refresh models"
+msgstr ""
+
+#. translators: %s: saved model identifier.
+#: src/Admin/AdminController.php:270
+#, php-format
+msgid "Saved model: %s"
+msgstr ""
+
+#. translators: %s: saved model identifier.
+#: src/Admin/AdminController.php:271
+msgid "Find an available model by ID"
+msgstr ""
+
+#. translators: %s: AI provider name, for example OpenAI.
+#: src/Admin/AdminController.php:271
+#, php-format
+msgid "Find available %s model ID"
+msgstr ""
+
+#. translators: %s: AI provider name, for example OpenAI.
+#: src/Admin/AdminController.php:271
+msgid "An ID must be in the synchronized model list. Retired, missing and incompatible IDs cannot be saved."
+msgstr ""
+
+#: src/Admin/AdminController.php:274
+msgid "Save provider models"
+msgstr ""
+
+#: src/Admin/AdminController.php:277
+msgid "API Keys"
+msgstr ""
+
+#: src/Admin/AdminController.php:278
+msgid "Use Remove Key to delete credentials. Deactivation preserves settings and keys."
+msgstr ""
+
+#: src/Admin/AdminController.php:281
+msgid "Dedicated encryption key active"
+msgstr ""
+
+#: src/Admin/AdminController.php:284
+msgid "Encryption key changed — stored keys unreadable, re-enter below"
+msgstr ""
+
+#: src/Admin/AdminController.php:287
+msgid "Using WordPress salt fallback — define CONVOCART_ENCRYPTION_KEY before production"
+msgstr ""
+
+#: src/Admin/AdminController.php:294
+msgid "No providers configured."
+msgstr ""
+
+#: src/Admin/AdminController.php:294
+msgid "Enter at least one API key below to start using the assistant."
+msgstr ""
+
+#: src/Admin/AdminController.php:302
+msgid "Test passed recently"
+msgstr ""
+
+#: src/Admin/AdminController.php:302
+msgid "Key stored — test required"
+msgstr ""
+
+#: src/Admin/AdminController.php:302
+msgid "Not Configured"
+msgstr ""
+
+#: src/Admin/AdminController.php:317
+msgid "Key is configured and securely encrypted."
+msgstr ""
+
+#. translators: %s: AI provider name, for example OpenAI.
+#: src/Admin/AdminController.php:318
+#, php-format
+msgid "Remove %s Key"
+msgstr ""
+
+#: src/Admin/AdminController.php:326
+msgid "Enter API key here..."
+msgstr ""
+
+#: src/Admin/AdminController.php:327
+msgid "Update Key"
+msgstr ""
+
+#: src/Admin/AdminController.php:327
+msgid "Save Key"
+msgstr ""
+
+#: src/Admin/AdminController.php:331
+msgid "Test connection"
+msgstr ""
+
+#: src/Admin/AdminController.php:341
+msgid "No provider API key is configured yet. Configure at least one provider before using the assistant."
+msgstr ""
+
+#: src/Admin/AdminController.php:346
+msgid "CONVOCART_ENCRYPTION_KEY is not defined. WordPress salts are being used as the encryption fallback. Define a dedicated key before production."
+msgstr ""
+
+#: src/Admin/AdminController.php:350
+msgid "The encryption key changed. Existing provider keys are unavailable and must be entered again."
+msgstr ""
+
+#: src/Admin/AdminController.php:359
+msgid "Invalid settings section."
+msgstr ""
+
+#: src/Admin/AdminController.php:362
+#: src/Admin/AdminController.php:378
+#: src/API/RestController.php:241
+msgid "The request could not be verified. Please refresh and try again."
+msgstr ""
+
+#: src/Admin/AdminController.php:365
+#: src/Admin/AdminController.php:381
+#: src/Admin/AdminController.php:614
+#: src/Admin/AdminController.php:625
+#: src/Admin/AdminController.php:655
+#: src/Admin/AdminController.php:683
+#: src/Admin/AdminController.php:692
+#: src/Admin/AdminController.php:1104
+msgid "Permission denied."
+msgstr ""
+
+#: src/Admin/AdminController.php:375
+msgid "Invalid provider settings section."
+msgstr ""
+
+#: src/Admin/AdminController.php:387
+msgid "Model not saved"
+msgstr ""
+
+#: src/Admin/AdminController.php:394
+msgid "You do not have permission to manage knowledge."
+msgstr ""
+
+#: src/Admin/AdminController.php:414
+msgid "Products indexed"
+msgstr ""
+
+#: src/Admin/AdminController.php:415
+msgid "Processed (last job)"
+msgstr ""
+
+#: src/Admin/AdminController.php:416
+msgid "Failed (retrying)"
+msgstr ""
+
+#: src/Admin/AdminController.php:417
+msgid "Permanently failed"
+msgstr ""
+
+#: src/Admin/AdminController.php:421
+msgid "Sync Controls"
+msgstr ""
+
+#: src/Admin/AdminController.php:422
+msgid "Synchronize published WooCommerce products into the controlled recommendation index. Live product data is revalidated before every display and cart action."
+msgstr ""
+
+#: src/Admin/AdminController.php:426
+msgid "Queue product synchronization"
+msgstr ""
+
+#: src/Admin/AdminController.php:429
+msgid "A synchronization is already running. This page reflects its last recorded progress; reload to refresh."
+msgstr ""
+
+#: src/Admin/AdminController.php:433
+msgid "Sync Status"
+msgstr ""
+
+#: src/Admin/AdminController.php:437
+msgid "Synchronization progress"
+msgstr ""
+
+#. translators: %1$s: processed item count, %2$s: total item count, %3$d: completion percentage.
+#: src/Admin/AdminController.php:440
+#, php-format
+msgid "%1$s of %2$s items (%3$d%%)"
+msgstr ""
+
+#: src/Admin/AdminController.php:443
+msgid "Last sync started/updated"
+msgstr ""
+
+#: src/Admin/AdminController.php:443
+msgid "Never"
+msgstr ""
+
+#: src/Admin/AdminController.php:444
+msgid "Completed at"
+msgstr ""
+
+#: src/Admin/AdminController.php:444
+msgid "—"
+msgstr ""
+
+#: src/Admin/AdminController.php:445
+msgid "Product retries"
+msgstr ""
+
+#: src/Admin/AdminController.php:446
+msgid "Recovery retries"
+msgstr ""
+
+#: src/Admin/AdminController.php:447
+msgid "Batches"
+msgstr ""
+
+#: src/Admin/AdminController.php:449
+msgid "Last error"
+msgstr ""
+
+#. translators: %d: number of products that could not be indexed.
+#: src/Admin/AdminController.php:454
+#, php-format
+msgid "%d product could not be indexed after all retries and was skipped."
+msgid_plural "%d products could not be indexed after all retries and were skipped."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Admin/AdminController.php:456
+msgid "Large catalogues are processed through Action Scheduler when available."
+msgstr ""
+
+#: src/Admin/AdminController.php:469
+msgid "Completed"
+msgstr ""
+
+#: src/Admin/AdminController.php:471
+msgid "Completed with errors"
+msgstr ""
+
+#: src/Admin/AdminController.php:473
+msgid "Running"
+msgstr ""
+
+#: src/Admin/AdminController.php:475
+msgid "Queued"
+msgstr ""
+
+#: src/Admin/AdminController.php:477
+msgid "Retrying"
+msgstr ""
+
+#: src/Admin/AdminController.php:479
+msgid "Failed"
+msgstr ""
+
+#: src/Admin/AdminController.php:481
+msgid "No sync yet"
+msgstr ""
+
+#: src/Admin/AdminController.php:495
+msgid "You do not have permission to view system status."
+msgstr ""
+
+#: src/Admin/AdminController.php:499
+msgid "Plugin version"
+msgstr ""
+
+#: src/Admin/AdminController.php:499
+msgid "WordPress"
+msgstr ""
+
+#: src/Admin/AdminController.php:499
+msgid "PHP"
+msgstr ""
+
+#: src/Admin/AdminController.php:499
+msgid "WooCommerce"
+msgstr ""
+
+#: src/Admin/AdminController.php:499
+msgid "Unavailable"
+msgstr ""
+
+#: src/Admin/AdminController.php:499
+msgid "HTTPS"
+msgstr ""
+
+#: src/Admin/AdminController.php:499
+msgid "Enabled"
+msgstr ""
+
+#: src/Admin/AdminController.php:499
+msgid "Disabled"
+msgstr ""
+
+#: src/Admin/AdminController.php:499
+msgid "Action Scheduler"
+msgstr ""
+
+#. translators: %s: shutdown date (YYYY-MM-DD).
+#: src/Admin/AdminController.php:499
+#: src/AI/ProviderModelService.php:123
+msgid "Available"
+msgstr ""
+
+#: src/Admin/AdminController.php:499
+msgid "Encryption key fingerprint"
+msgstr ""
+
+#: src/Admin/AdminController.php:505
+msgid "You do not have permission to view analytics."
+msgstr ""
+
+#: src/Admin/AdminController.php:509
+msgid "Assistant Analytics"
+msgstr ""
+
+#: src/Admin/AdminController.php:509
+msgid "Total Events"
+msgstr ""
+
+#: src/Admin/AdminController.php:509
+msgid "Unique Sessions"
+msgstr ""
+
+#: src/Admin/AdminController.php:509
+msgid "Product Clicks"
+msgstr ""
+
+#: src/Admin/AdminController.php:509
+msgid "Cart Additions"
+msgstr ""
+
+#: src/Admin/AdminController.php:509
+msgid "No-Result Searches"
+msgstr ""
+
+#: src/Admin/AdminController.php:509
+msgid "Metrics are based on privacy-safe allowlisted events. Raw message content is never used."
+msgstr ""
+
+#: src/Admin/AdminController.php:515
+msgid "You do not have permission to view feedback."
+msgstr ""
+
+#: src/Admin/AdminController.php:524
+msgid "Assistant Feedback"
+msgstr ""
+
+#: src/Admin/AdminController.php:525
+msgid "Customer submissions from the feedback panel. Each entry captures the rating and, where available, the question that was asked, the assistant's reply, and any comment."
+msgstr ""
+
+#: src/Admin/AdminController.php:528
+msgid "Total Responses"
+msgstr ""
+
+#: src/Admin/AdminController.php:529
+msgid "👍 Helpful"
+msgstr ""
+
+#: src/Admin/AdminController.php:530
+msgid "👎 Not Helpful"
+msgstr ""
+
+#: src/Admin/AdminController.php:531
+msgid "With a Comment"
+msgstr ""
+
+#: src/Admin/AdminController.php:534
+msgid "Email Notifications"
+msgstr ""
+
+#: src/Admin/AdminController.php:540
+msgid "Email new feedback"
+msgstr ""
+
+#: src/Admin/AdminController.php:542
+msgid "Send an email to the shop whenever a customer submits feedback."
+msgstr ""
+
+#: src/Admin/AdminController.php:546
+msgid "Notification address"
+msgstr ""
+
+#: src/Admin/AdminController.php:549
+msgid "Leave blank to use the site admin email."
+msgstr ""
+
+#: src/Admin/AdminController.php:553
+msgid "Save Notification Settings"
+msgstr ""
+
+#: src/Admin/AdminController.php:556
+msgid "Recent Feedback"
+msgstr ""
+
+#: src/Admin/AdminController.php:558
+msgid "No feedback has been submitted yet."
+msgstr ""
+
+#: src/Admin/AdminController.php:563
+msgid "Rating"
+msgstr ""
+
+#: src/Admin/AdminController.php:564
+msgid "Question"
+msgstr ""
+
+#: src/Admin/AdminController.php:565
+msgid "AI Response"
+msgstr ""
+
+#: src/Admin/AdminController.php:566
+msgid "Comment"
+msgstr ""
+
+#: src/Admin/AdminController.php:567
+msgid "Date"
+msgstr ""
+
+#: src/Admin/AdminController.php:589
+msgid "Delete all stored feedback? This cannot be undone."
+msgstr ""
+
+#: src/Admin/AdminController.php:592
+msgid "Delete All Feedback"
+msgstr ""
+
+#: src/Admin/AdminController.php:602
+msgid "Feedback notification settings saved."
+msgstr ""
+
+#: src/Admin/AdminController.php:603
+msgid "All feedback has been deleted."
+msgstr ""
+
+#: src/Admin/AdminController.php:737
+msgid "Choose image"
+msgstr ""
+
+#: src/Admin/AdminController.php:738
+msgid "Remove"
+msgstr ""
+
+#: src/Admin/AdminController.php:797
+msgid "Provider settings saved."
+msgstr ""
+
+#: src/Admin/AdminController.php:798
+msgid "API key encrypted and saved. Available models are loading automatically. Save a model and run its shopping-response test."
+msgstr ""
+
+#: src/Admin/AdminController.php:799
+msgid "API key removed."
+msgstr ""
+
+#: src/Admin/AdminController.php:800
+msgid "Enter a non-empty API key before saving."
+msgstr ""
+
+#: src/Admin/AdminController.php:801
+msgid "The selected provider is invalid."
+msgstr ""
+
+#: src/Admin/AdminController.php:802
+msgid "The API key is empty or too long."
+msgstr ""
+
+#: src/Admin/AdminController.php:803
+msgid "The API key could not be encrypted. Ensure Sodium or OpenSSL is available on the server."
+msgstr ""
+
+#: src/Admin/AdminController.php:804
+msgid "The API key could not be verified after saving. Check database write permissions and define CONVOCART_ENCRYPTION_KEY in wp-config.php."
+msgstr ""
+
+#: src/Admin/AdminController.php:816
+msgid "Settings saved."
+msgstr ""
+
+#: src/Admin/AdminController.php:827
+msgid "Product synchronization was queued."
+msgstr ""
+
+#: src/Admin/AdminController.php:828
+msgid "A product synchronization is already running. Wait for it to finish or retry shortly."
+msgstr ""
+
+#: src/Admin/AdminController.php:829
+msgid "Product synchronization could not be queued. Please try again shortly."
+msgstr ""
+
+#: src/Admin/AdminController.php:880
+msgid "Analyze Website Content"
+msgstr ""
+
+#: src/Admin/AdminController.php:881
+msgid "Build a bounded store-context snapshot with policy pages first. This is not an AI-generated analysis or full-site crawl."
+msgstr ""
+
+#: src/Admin/AdminController.php:883
+msgid "Saved store context was cleared or became outdated. Run Analyze to rebuild it from current public content."
+msgstr ""
+
+#: src/Admin/AdminController.php:887
+msgid "Analysis is currently running. This may take a few minutes for large stores."
+msgstr ""
+
+#: src/Admin/AdminController.php:891
+msgid "AI configuration saved."
+msgstr ""
+
+#: src/Admin/AdminController.php:896
+msgid "Site Analysis"
+msgstr ""
+
+#: src/Admin/AdminController.php:897
+msgid "Build up to 8,000 characters of context from:"
+msgstr ""
+
+#: src/Admin/AdminController.php:899
+msgid "Up to 20 public product names; live prices are supplied separately"
+msgstr ""
+
+#: src/Admin/AdminController.php:900
+msgid "Up to 50 public pages/posts, prioritizing store policies"
+msgstr ""
+
+#: src/Admin/AdminController.php:901
+msgid "Product categories and menu structure"
+msgstr ""
+
+#: src/Admin/AdminController.php:902
+msgid "Site tagline, about content, and brand messaging"
+msgstr ""
+
+#: src/Admin/AdminController.php:904
+msgid "This data helps the assistant give better, more contextual responses to customers."
+msgstr ""
+
+#. translators: %s: date and time of the last analysis.
+#: src/Admin/AdminController.php:913
+#, php-format
+msgid "Last analyzed: %s"
+msgstr ""
+
+#: src/Admin/AdminController.php:919
+msgid "Analysis Results"
+msgstr ""
+
+#: src/Admin/AdminController.php:921
+msgid "Products scanned"
+msgstr ""
+
+#: src/Admin/AdminController.php:922
+msgid "Pages scanned"
+msgstr ""
+
+#: src/Admin/AdminController.php:923
+msgid "Categories found"
+msgstr ""
+
+#: src/Admin/AdminController.php:924
+msgid "Content items"
+msgstr ""
+
+#: src/Admin/AdminController.php:931
+msgid "Generated Site Context (used by AI)"
+msgstr ""
+
+#: src/Admin/AdminController.php:933
+msgid "This content is passed to the AI assistant as additional context for better recommendations."
+msgstr ""
+
+#: src/Admin/AdminController.php:937
+msgid "Clear saved context"
+msgstr ""
+
+#: src/Admin/AdminController.php:943
+msgid "AI Assistant Configuration"
+msgstr ""
+
+#: src/Admin/AdminController.php:944
+msgid "Customize the assistant personality and behaviour. Changes here take effect immediately for new conversations."
+msgstr ""
+
+#: src/Admin/AdminController.php:952
+msgid "Assistant Name"
+msgstr ""
+
+#: src/Admin/AdminController.php:955
+msgid "The display name shown to customers in the chat widget."
+msgstr ""
+
+#: src/Admin/AdminController.php:959
+msgid "System Prompt"
+msgstr ""
+
+#: src/Admin/AdminController.php:962
+msgid "The system prompt defines the AI personality and behaviour. Placeholders: {SITE_CONTEXT} will be replaced with analyzed site content, {PRODUCTS} with available products JSON, {SCHEMA} with required response format."
+msgstr ""
+
+#: src/Admin/AdminController.php:967
+msgid "Save Configuration"
+msgstr ""
+
+#: src/Admin/AdminController.php:977
+#: src/Admin/AdminController.php:1113
+msgid "Unauthorized."
+msgstr ""
+
+#: src/Admin/AdminController.php:1090
+msgid "Store content changed during analysis or could not be saved. Run Analyze again."
+msgstr ""
+
+#: src/AI/ModelCatalog.php:28
+msgid "Model must be present in the provider inventory. Test the saved model to verify shopping responses."
+msgstr ""
+
+#: src/AI/ModelCatalog.php:32
+msgid "Enter a valid model ID of at most 100 characters."
+msgstr ""
+
+#. translators: %s: retirement date (YYYY-MM-DD).
+#: src/AI/ModelCatalog.php:37
+#, php-format
+msgid "This model was retired on %s and cannot be used. Select an available replacement."
+msgstr ""
+
+#: src/AI/ModelCatalog.php:38
+msgid "This model is retired and cannot be used. Select an available replacement."
+msgstr ""
+
+#: src/AI/ModelCatalog.php:41
+msgid "This model is not supported by the text-chat adapter."
+msgstr ""
+
+#. translators: %s: shutdown date (YYYY-MM-DD).
+#: src/AI/ModelCatalog.php:44
+#, php-format
+msgid "Shutdown scheduled for %s (UTC). Choose a replacement before this date."
+msgstr ""
+
+#: src/AI/ModelCatalog.php:47
+msgid "Preview model; availability can change at short notice. Test before use."
+msgstr ""
+
+#: src/AI/ModelCatalog.php:50
+msgid "Adapter-supported model. Run the shopping-response test to verify current provider availability."
+msgstr ""
+
+#: src/AI/ProviderManager.php:280
+msgid "Not tested recently."
+msgstr ""
+
+#: src/AI/ProviderModelService.php:36
+#: src/API/RestController.php:537
+msgid "Unknown provider."
+msgstr ""
+
+#: src/AI/ProviderModelService.php:40
+msgid "Save an API key to automatically discover available models."
+msgstr ""
+
+#: src/AI/ProviderModelService.php:48
+msgid "Model refresh is pending. Please try again shortly."
+msgstr ""
+
+#: src/AI/ProviderModelService.php:64
+msgid "Save an API key to discover available models."
+msgstr ""
+
+#: src/AI/ProviderModelService.php:70
+msgid "No fresh provider inventory is available. Automatic refresh is queued; check Providers for discovery errors."
+msgstr ""
+
+#: src/AI/ProviderModelService.php:76
+msgid "The saved model is no longer listed by this provider. Choose an available replacement."
+msgstr ""
+
+#: src/AI/ProviderModelService.php:81
+msgid "The provider reported this model unavailable. Choose another model or retest the saved model after resolving access."
+msgstr ""
+
+#. translators: %s: shutdown date (YYYY-MM-DD).
+#: src/AI/ProviderModelService.php:123
+#, php-format
+msgid "Shuts down %s"
+msgstr ""
+
+#. translators: %s: shutdown date (YYYY-MM-DD).
+#: src/AI/ProviderModelService.php:123
+msgid "Preview"
+msgstr ""
+
+#: src/AI/ProviderModelService.php:155
+msgid "Another model refresh is running. Please try again shortly."
+msgstr ""
+
+#: src/AI/ProviderModelService.php:161
+msgid "Credentials changed during discovery. A new automatic refresh is queued."
+msgstr ""
+
+#: src/AI/ProviderModelService.php:184
+msgid "Model discovery timed out before all pages loaded. Automatic refresh will retry."
+msgstr ""
+
+#. translators: %s: machine-readable error code, for example auth_error.
+#: src/AI/ProviderModelService.php:190
+#, php-format
+msgid "Model discovery failed (%s). Check credentials, permissions, quota and network access. Unverified choices are not enabled."
+msgstr ""
+
+#: src/AI/ProviderModelService.php:194
+msgid "The provider returned an invalid model list. Automatic refresh will retry."
+msgstr ""
+
+#: src/AI/ProviderModelService.php:196
+msgid "The model list contains invalid entries."
+msgstr ""
+
+#: src/AI/ProviderModelService.php:198
+msgid "The model list contains invalid identifiers."
+msgstr ""
+
+#: src/AI/ProviderModelService.php:204
+msgid "Invalid model pagination. Automatic refresh will retry."
+msgstr ""
+
+#: src/AI/ProviderModelService.php:207
+msgid "No compatible, non-retired chat models are listed for this API key."
+msgstr ""
+
+#: src/AI/ProviderModelService.php:207
+msgid "Available models synchronized automatically. Save a model, then test its shopping response."
+msgstr ""
+
+#: src/AI/ProviderModelService.php:211
+msgid "The provider model list exceeded the pagination limit. Incomplete inventories are not enabled."
+msgstr ""
+
+#: src/AI/Providers/AbstractProvider.php:31
+msgid "API key is not configured."
+msgstr ""
+
+#: src/AI/Providers/AbstractProvider.php:58
+msgid "Saved model returned a valid shopping response."
+msgstr ""
+
+#. translators: %s: machine-readable error code, for example quota_exhausted.
+#: src/AI/Providers/AbstractProvider.php:65
+#, php-format
+msgid "Shopping-response test failed (%s). Check model compatibility, API key permissions, billing/quota, and network access."
+msgstr ""
+
+#: src/API/RestController.php:230
+msgid "Your assistant session has expired. Please start a new session."
+msgstr ""
+
+#: src/API/RestController.php:260
+#: src/API/RestController.php:346
+msgid "Please wait before starting another assistant session."
+msgstr ""
+
+#: src/API/RestController.php:332
+#: src/Conversation/ConversationEngine.php:382
+msgid "Browse bestsellers"
+msgstr ""
+
+#: src/API/RestController.php:333
+msgid "What's on sale?"
+msgstr ""
+
+#: src/API/RestController.php:334
+#: src/Conversation/ConversationEngine.php:385
+msgid "Help me choose"
+msgstr ""
+
+#: src/API/RestController.php:335
+#: src/Conversation/ConversationEngine.php:383
+msgid "New arrivals"
+msgstr ""
+
+#: src/API/RestController.php:341
+#: src/API/RestController.php:369
+#: src/API/RestController.php:392
+#: src/API/RestController.php:424
+#: src/API/RestController.php:506
+msgid "The assistant is currently disabled."
+msgstr ""
+
+#: src/API/RestController.php:363
+#: src/Frontend/FrontendController.php:120
+msgid "The assistant could not start. Please try again."
+msgstr ""
+
+#: src/API/RestController.php:374
+msgid "You have reached the assistant limit. Please try again shortly."
+msgstr ""
+
+#: src/API/RestController.php:384
+msgid "Please enter a shorter message and try again."
+msgstr ""
+
+#: src/API/RestController.php:386
+msgid "The assistant could not complete that request."
+msgstr ""
+
+#: src/API/RestController.php:395
+msgid "Please wait before sending more feedback."
+msgstr ""
+
+#: src/API/RestController.php:399
+msgid "Invalid feedback."
+msgstr ""
+
+#: src/API/RestController.php:403
+msgid "The conversation could not be verified."
+msgstr ""
+
+#: src/API/RestController.php:417
+msgid "Feedback could not be saved. Please retry."
+msgstr ""
+
+#: src/API/RestController.php:429
+msgid "Please wait before adding more items from the assistant."
+msgstr ""
+
+#: src/API/RestController.php:437
+msgid "Add to Cart is currently disabled."
+msgstr ""
+
+#: src/API/RestController.php:448
+msgid "The product or quantity is invalid."
+msgstr ""
+
+#: src/API/RestController.php:451
+msgid "Invalid cart request identifier."
+msgstr ""
+
+#: src/API/RestController.php:459
+#: src/WooCommerce/CartRequestStore.php:28
+msgid "This request identifier was already used for another cart action."
+msgstr ""
+
+#: src/API/RestController.php:470
+msgid "Cart action failed. Check the cart before retrying."
+msgstr ""
+
+#: src/API/RestController.php:476
+#: src/WooCommerce/WooCommerceService.php:99
+msgid "WooCommerce could not add that product to the cart."
+msgstr ""
+
+#: src/API/RestController.php:487
+#: src/WooCommerce/WooCommerceService.php:110
+msgid "Added to cart."
+msgstr ""
+
+#: src/API/RestController.php:494
+msgid "The cart changed but the confirmation could not be saved. Check your cart before trying a new action."
+msgstr ""
+
+#: src/API/RestController.php:511
+msgid "Please wait before sending more events."
+msgstr ""
+
+#: src/API/RestController.php:520
+msgid "This event is recorded by the server."
+msgstr ""
+
+#: src/API/RestController.php:523
+msgid "Invalid analytics event."
+msgstr ""
+
+#: src/API/RestController.php:533
+msgid "Please wait before testing again."
+msgstr ""
+
+#: src/API/RestController.php:569
+msgid "A product sync is already running. Wait for it to finish or retry shortly."
+msgstr ""
+
+#: src/API/RestController.php:569
+msgid "The product sync could not be queued. Please try again shortly."
+msgstr ""
+
+#: src/Conversation/ConversationEngine.php:98
+msgid "Here are my recommendations for you!"
+msgstr ""
+
+#: src/Conversation/ConversationEngine.php:384
+msgid "Today's deals"
+msgstr ""
+
+#: src/Conversation/ConversationEngine.php:422
+msgid "our store"
+msgstr ""
+
+#: src/Feedback/FeedbackService.php:103
+msgid "Helpful (thumbs up)"
+msgstr ""
+
+#: src/Feedback/FeedbackService.php:103
+msgid "Not helpful (thumbs down)"
+msgstr ""
+
+#. translators: %s: rating label.
+#: src/Feedback/FeedbackService.php:106
+#, php-format
+msgid "[Nexora Shopping Assistant] New customer feedback — %s"
+msgstr ""
+
+#: src/Feedback/FeedbackService.php:110
+msgid "A customer left feedback on the assistant."
+msgstr ""
+
+#: src/Feedback/FeedbackService.php:112
+msgid "Rating:"
+msgstr ""
+
+#: src/Feedback/FeedbackService.php:113
+msgid "Question:"
+msgstr ""
+
+#: src/Feedback/FeedbackService.php:113
+#: src/Feedback/FeedbackService.php:114
+msgid "(not captured)"
+msgstr ""
+
+#: src/Feedback/FeedbackService.php:114
+msgid "AI response:"
+msgstr ""
+
+#: src/Feedback/FeedbackService.php:115
+msgid "Comment:"
+msgstr ""
+
+#: src/Feedback/FeedbackService.php:115
+msgid "(none)"
+msgstr ""
+
+#: src/Feedback/FeedbackService.php:117
+msgid "View all feedback:"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:74
+msgid "Your shopping assistant"
+msgstr ""
+
+#. translators: %s: assistant name
+#: src/Frontend/FrontendController.php:75
+#: src/Frontend/FrontendController.php:182
+#, php-format
+msgid "Ask %s"
+msgstr ""
+
+#. translators: %s: assistant name
+#: src/Frontend/FrontendController.php:76
+msgid "AI assistant"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:77
+msgid "Close assistant"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:78
+msgid "Type your message"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:79
+msgid "Ask about products or get recommendations…"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:80
+msgid "Send"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:81
+msgid "Thinking…"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:82
+msgid "New conversation"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:83
+msgid "Start over"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:84
+msgid "Hi! I can help you find the right products and answer your questions. What are you looking for?"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:85
+msgid "View"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:86
+msgid "View product"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:87
+msgid "Choose options"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:88
+msgid "Add to Cart"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:89
+msgid "Adding…"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:90
+msgid "Added"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:91
+msgid "Select Options"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:92
+msgid "Added to your cart."
+msgstr ""
+
+#: src/Frontend/FrontendController.php:93
+#: src/Frontend/FrontendController.php:127
+msgid "Could not add to cart."
+msgstr ""
+
+#: src/Frontend/FrontendController.php:94
+msgid "In stock"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:95
+msgid "Low stock"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:96
+msgid "Out of stock"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:97
+msgid "Available to order"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:98
+msgid "Helpful"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:99
+msgid "Not helpful"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:100
+msgid "Was this helpful?"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:102
+msgid "says…"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:103
+msgid "Your feedback helps me improve for everyone."
+msgstr ""
+
+#: src/Frontend/FrontendController.php:104
+msgid "Sorry about that — what could have been better?"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:105
+msgid "Thank you!"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:106
+msgid "Your feedback helps us improve."
+msgstr ""
+
+#: src/Frontend/FrontendController.php:107
+msgid "Your feedback has been received."
+msgstr ""
+
+#: src/Frontend/FrontendController.php:108
+msgid "Continue chatting"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:109
+msgid "Start a new chat"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:110
+msgid "Maybe later"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:111
+#: src/Frontend/FrontendController.php:112
+msgid "Help improve the assistant"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:113
+msgid "Comments or suggestions"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:114
+msgid "Comments or suggestions (optional)…"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:115
+msgid "Send feedback"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:116
+msgid "Sending…"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:117
+msgid "Please choose 👍 or 👎 first."
+msgstr ""
+
+#: src/Frontend/FrontendController.php:118
+msgid "The assistant is temporarily unavailable."
+msgstr ""
+
+#: src/Frontend/FrontendController.php:119
+#: src/Support/Settings.php:266
+msgid "I could not complete that request right now. Please try again shortly."
+msgstr ""
+
+#: src/Frontend/FrontendController.php:121
+msgid "The assistant could not respond. Please try again."
+msgstr ""
+
+#: src/Frontend/FrontendController.php:122
+msgid "You appear to be offline. Check your connection and try again."
+msgstr ""
+
+#: src/Frontend/FrontendController.php:123
+msgid "I could not find a match for that. Try rephrasing or ask about another product."
+msgstr ""
+
+#: src/Frontend/FrontendController.php:124
+msgid "Thanks for the feedback."
+msgstr ""
+
+#: src/Frontend/FrontendController.php:125
+msgid "Thanks, we will use that to improve."
+msgstr ""
+
+#: src/Frontend/FrontendController.php:126
+msgid "Feedback could not be saved."
+msgstr ""
+
+#: src/Frontend/FrontendController.php:128
+msgid "Try again"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:129
+msgid "Try asking"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:130
+msgid "View Cart"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:131
+msgid "Checkout"
+msgstr ""
+
+#: src/Frontend/FrontendController.php:133
+msgid "Submitting feedback shares your latest question, the reply and optional comment with this store."
+msgstr ""
+
+#: src/Frontend/FrontendController.php:134
+msgid "Your session expired. Start a new chat to continue."
+msgstr ""
+
+#: src/Jobs/ModelSyncJob.php:52
+msgid "Review available models"
+msgstr ""
+
+#: src/Plugin.php:92
+msgid "The earlier ConvoCart AI plugin folder is still installed and \"Preserve data on uninstall\" is off. Deleting ConvoCart AI now would also delete this plugin's conversations, settings and API keys. Turn \"Preserve data on uninstall\" on before deleting it."
+msgstr ""
+
+#: src/Plugin.php:101
+msgid "Nexora Shopping Assistant requires WooCommerce to be active. The plugin is currently disabled until WooCommerce is available."
+msgstr ""
+
+#: src/Plugin.php:170
+msgid "Nexora Shopping Assistant updated legacy model defaults. Review Providers and run the shopping-response test before enabling the assistant."
+msgstr ""
+
+#: src/Plugin.php:177
+msgid "Nexora Shopping Assistant database migration is running or waiting for a lock."
+msgstr ""
+
+#: src/Plugin.php:177
+msgid "Nexora Shopping Assistant database migration needs attention. Reload after the issue is resolved to retry."
+msgstr ""
+
+#. translators: %s: migration status code.
+#: src/Plugin.php:180
+#, php-format
+msgid "Status code: %s."
+msgstr ""
+
+#: src/Privacy/PrivacyService.php:21
+#: src/Privacy/PrivacyService.php:29
+msgid "Nexora Shopping Assistant data"
+msgstr ""
+
+#: src/Privacy/PrivacyService.php:48
+msgid "Assistant conversation"
+msgstr ""
+
+#. translators: %1$s start time, %2$s intent, %3$s state
+#: src/Privacy/PrivacyService.php:51
+#, php-format
+msgid "Conversation started: %1$s. Intent: %2$s. Status: %3$s."
+msgstr ""
+
+#: src/Privacy/PrivacyService.php:63
+msgid "Assistant message"
+msgstr ""
+
+#. translators: %1$s: message role (user or assistant), %2$s: date and time, %3$s: message text.
+#: src/Privacy/PrivacyService.php:64
+#, php-format
+msgid "%1$s message on %2$s: %3$s"
+msgstr ""
+
+#: src/Privacy/PrivacyService.php:72
+msgid "Assistant event"
+msgstr ""
+
+#. translators: %1$s: event name, %2$s: object type, %3$s: date and time.
+#: src/Privacy/PrivacyService.php:73
+#: src/Privacy/PrivacyService.php:91
+#, php-format
+msgid "Event: %1$s. Object type: %2$s. Date: %3$s."
+msgstr ""
+
+#: src/Privacy/PrivacyService.php:81
+msgid "AI provider usage"
+msgstr ""
+
+#. translators: %1$s: AI provider, %2$s: model, %3$s: request status, %4$s: error code, %5$s: date and time.
+#: src/Privacy/PrivacyService.php:82
+#, php-format
+msgid "Provider: %1$s. Model: %2$s. Status: %3$s. Error code: %4$s. Date: %5$s."
+msgstr ""
+
+#: src/Privacy/PrivacyService.php:90
+msgid "Assistant account-linked event"
+msgstr ""
+
+#: src/Privacy/PrivacyService.php:98
+msgid "Assistant feedback"
+msgstr ""
+
+#: src/Privacy/PrivacyService.php:103
+msgid "Temporary session memory"
+msgstr ""
+
+#: src/Privacy/PrivacyService.php:173
+msgid "Some Nexora Shopping Assistant records could not be erased and will be retried on the next erasure pass."
+msgstr ""
+
+#: src/Privacy/PrivacyService.php:182
+msgid "Nexora Shopping Assistant sends messages and relevant store context to the store’s explicitly configured AI providers. Temporary conversation memory is stored in the database or object cache for up to 24 hours of inactivity. Longer-lived transcripts are stored only when conversation logging is enabled. Feedback submissions include the latest question, answer and optional comment, and may be emailed to the store. Session-linked interaction events and optionally account-linked records follow configured retention periods. Provider API keys are encrypted and never exported. WordPress export and erasure support account-linked records. Guest records cannot be located by email. Server log rotation and emailed copies are managed separately by the site owner. No external fonts or plugin-author-operated services are loaded."
+msgstr ""
+
+#: src/Support/Settings.php:262
+msgid "What can I help you find today?"
+msgstr ""
+
+#: src/WooCommerce/CartRequestStore.php:35
+msgid "This cart request is pending or its outcome is unknown. Check your cart before trying a new action."
+msgstr ""
+
+#: src/WooCommerce/WooCommerceService.php:62
+msgid "The cart is unavailable. Please refresh and try again."
+msgstr ""
+
+#: src/WooCommerce/WooCommerceService.php:70
+msgid "That product is not available for purchase."
+msgstr ""
+
+#: src/WooCommerce/WooCommerceService.php:77
+msgid "Please use the product page to choose options and add this item."
+msgstr ""
+
+#: src/WooCommerce/WooCommerceService.php:86
+msgid "That product is out of stock."
+msgstr ""
+
+#: src/WooCommerce/WooCommerceService.php:92
+msgid "This product could not be added. Check its product page for purchase requirements."
+msgstr ""
